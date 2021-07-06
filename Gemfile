@@ -1,10 +1,12 @@
 source "https://rubygems.org"
 
-gem "activerecord"
+ruby "2.3.0"
+
+gem "activerecord", "4.2.6"
 gem "byebug"
 gem "database_cleaner"
 gem "factory_girl"
-gem "pg"
+gem "pg", "0.21.0"
 gem "pry"
 gem "rake"
 gem "rspec"
